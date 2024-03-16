@@ -2,6 +2,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 ::after,
 ::before {
@@ -15,6 +16,7 @@ body {
 img {
   display: block;
   width: 100%;
+
 }
 
 h1 {
@@ -26,6 +28,22 @@ p {
   font-size: 1.5rem;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foto {
+  flex-basis: calc(100% / 3)
+}
+
+
 /*
 Nastylujte header tak, aby byl nadpis a podnadpis vedle sebe, na opačných koncích stránky. Text podnadpisu zarovnejte doprava
 
@@ -34,5 +52,3 @@ Potom zkuste třeba tři nebo čtyři sloupce.
 
 Pro každou variantu si pomocí devtools udělejte screenshot.
 */
-
-
